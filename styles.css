@@ -670,3 +670,22 @@ a.registration-button:hover {
     transform: translateY(2px);
     box-shadow: 0 5px 10px rgba(233, 30, 99, 0.3);
 }
+/* Общий стиль для всех устройств */
+body {
+  font-size: 16px;
+}
+
+/* Для экранов шириной до 768px (планшеты и телефоны) */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Для экранов шириной до 480px (телефоны) */
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}
+
